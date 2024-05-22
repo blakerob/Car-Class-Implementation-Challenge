@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+                 class Car {
+                    constructor(make, speed){
+                        this.make = make;
+                        this.speed = speed;
+                        console.log('Brand of the Car: ${make}')
+                        console.log('Current Speed km/h: $${speed}')
+                    }
+                    static Accelerate(){
+                        return this.speed + 10
+                    }
+                    static Brake(){
+                        return this.speed - 5
+                    }
+                    Car1 = new Car (BMW, 120)
+                    Car2 = new Car (Mercedes, 95)
+                    Accelerate Car1
+                    Accelerate Car2
+                    Brake Car1
+                    Brake Car2
+                }
+        </script>
+    </body>
+</html>
