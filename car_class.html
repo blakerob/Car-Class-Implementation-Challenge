@@ -6,7 +6,10 @@
                         this.make = make;
                         this.speed = speed;
                         console.log('Brand of the Car: ${make}')
-                        console.log('Current Speed: $${speed}')
+                        console.log('Current Speed km/h: $${speed}')
+                    }
+                    static Accelorate(){
+                        return this.speed + 10
                     }
                  }
         </script>
